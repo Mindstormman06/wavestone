@@ -60,7 +60,6 @@ public final class ModBlocks {
         T block = factory.apply(props.setId(key));
         Registry.register(BuiltInRegistries.BLOCK, key, block);
 
-        // ✅ Register the BlockItem so /give and creative inventory work
         ResourceKey<Item> itemKey = ResourceKey.create(Registries.ITEM,
                 Identifier.fromNamespaceAndPath(Wavestone.MOD_ID, name));
         Registry.register(BuiltInRegistries.ITEM, itemKey,

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "wavestone:block/waveform_reader"
+    }
+  }
+}

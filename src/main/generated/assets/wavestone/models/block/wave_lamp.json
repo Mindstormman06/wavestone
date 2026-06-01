@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "wavestone:block/test_block"
+    "all": "wavestone:block/wave_lamp"
   }
 }
