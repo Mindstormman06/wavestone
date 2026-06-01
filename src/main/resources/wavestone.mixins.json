@@ -3,7 +3,7 @@
 	"package": "typhonic.wavestone.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"JukeboxMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
