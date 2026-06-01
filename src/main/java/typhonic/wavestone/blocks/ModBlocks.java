@@ -39,6 +39,14 @@ public final class ModBlocks {
                     .mapColor(MapColor.DEEPSLATE)
     );
 
+    public static final WaveLamp WAVE_LAMP = register("wave_lamp", WaveLamp::new,
+            BlockBehaviour.Properties.of()
+                    .strength(0.3f)
+                    .sound(SoundType.GLASS)
+                    .mapColor(MapColor.COLOR_YELLOW)
+                    .lightLevel(state -> state.getValue(WaveLamp.LIGHT_LEVEL))
+    );
+
     public static final SignalAmplifier SIGNAL_AMPLIFIER = register("signal_amplifier", SignalAmplifier::new,
             BlockBehaviour.Properties.of()
                     .strength(1.5f)
