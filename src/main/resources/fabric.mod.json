@@ -3,7 +3,7 @@
 	"id": "wavestone",
 	"version": "${version}",
 	"name": "Wavestone",
-	"description": "Redstone meets Waveforms",
+	"description": "Redstone meets Waveforms.",
 	"authors": [
 		"Strongery", "Mindstormman"
 	],
