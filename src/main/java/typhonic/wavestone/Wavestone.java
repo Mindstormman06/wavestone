@@ -2,6 +2,8 @@ package typhonic.wavestone;
 
 import net.fabricmc.api.ModInitializer;
 
+import typhonic.wavestone.blocks.ModBlocks;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -16,6 +18,7 @@ public class Wavestone implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		ModBlocks.initialize();
 		LOGGER.info("Wavestone Loaded!");
 	}
 }

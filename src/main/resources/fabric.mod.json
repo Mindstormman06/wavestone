@@ -18,19 +18,12 @@
 		"main": [
 			"typhonic.wavestone.Wavestone"
 		],
-		"client": [
-			"typhonic.wavestone.client.WavestoneClient"
-		],
 		"fabric-datagen": [
-			"typhonic.wavestone.client.WavestoneDataGenerator"
+			"typhonic.wavestone.WavestoneDataGenerator"
 		]
 	},
 	"mixins": [
-		"wavestone.mixins.json",
-		{
-			"config": "wavestone.client.mixins.json",
-			"environment": "client"
-		}
+		"wavestone.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.2",
