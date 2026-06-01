@@ -105,6 +105,11 @@ public class SignalWire extends Block {
     }
 
     /** Clear stored signal when the block is removed so the map doesn't leak. */
+    @Override
+    protected void affectNeighborsAfterRemoval(BlockState state, net.minecraft.server.level.ServerLevel level, BlockPos pos, boolean isMoving) {
+        signalByPos.remove(pos.immutable());
+        super.affectNeighborsAfterRemoval(state, level, pos, isMoving);
+    }
 
     /**
      * Propagate a signal outward from `pos` to all connected wires/devices.

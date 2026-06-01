@@ -23,7 +23,6 @@ public class WavestoneModelProvider extends FabricModelProvider {
         blockStateModelGenerator.createTrivialCube(ModBlocks.WAVEFORM_READER);
         blockStateModelGenerator.createTrivialCube(ModBlocks.WAVEFORM_COMPARATOR);
         blockStateModelGenerator.createTrivialCube(ModBlocks.SIGNAL_AMPLIFIER);
-        blockStateModelGenerator.createTrivialCube(ModBlocks.WAVE_LAMP);
         createWireBlock(blockStateModelGenerator, ModBlocks.SIGNAL_WIRE);
     }
 
