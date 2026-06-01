@@ -1,0 +1,100 @@
+{
+  "variants": {
+    "light_level=0,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=0,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=1,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=1,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=2,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=2,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=3,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=3,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=4,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=4,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=5,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=5,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=6,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=6,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=7,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=7,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=8,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=8,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=9,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=9,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=10,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=10,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=11,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=11,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=12,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=12,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=13,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=13,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=14,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=14,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=15,mode=binary": {
+      "model": "wavestone:block/wave_lamp"
+    },
+    "light_level=15,mode=analog": {
+      "model": "wavestone:block/wave_lamp"
+    }
+  }
+}
