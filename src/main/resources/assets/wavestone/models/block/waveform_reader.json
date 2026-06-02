@@ -1,13 +1,14 @@
 {
 	"format_version": "1.21.11",
 	"credit": "Made with Blockbench",
+	"render_type": "minecraft:cutout",
 	"textures": {
-		"0": "glass",
-		"1": "base",
-		"2": "discpreview",
-		"3": "gainscreen",
-		"4": "waveformscreen",
-		"particle": "glass"
+		"0": "wavestone:block/glass",
+		"1": "wavestone:block/base",
+		"2": "wavestone:block/discpreview",
+		"3": "wavestone:block/gainscreen",
+		"4": "wavestone:block/waveformscreen",
+		"particle": "wavestone:block/glass"
 	},
 	"elements": [
 		{

@@ -30,6 +30,7 @@ public final class ModBlocks {
                     .strength(1.5f)
                     .sound(SoundType.STONE)
                     .mapColor(MapColor.DEEPSLATE)
+                    .noOcclusion()
     );
 
     public static final WaveformComparator WAVEFORM_COMPARATOR = register("waveform_comparator", WaveformComparator::new,
@@ -37,6 +38,7 @@ public final class ModBlocks {
                     .strength(1.5f)
                     .sound(SoundType.STONE)
                     .mapColor(MapColor.DEEPSLATE)
+                    .noOcclusion()
     );
 
     public static final WaveLamp WAVE_LAMP = register("wave_lamp", WaveLamp::new,
@@ -52,6 +54,7 @@ public final class ModBlocks {
                     .strength(1.5f)
                     .sound(SoundType.STONE)
                     .mapColor(MapColor.DEEPSLATE)
+                    .noOcclusion()
     );
 
     private static <T extends Block> T register(String name, Function<BlockBehaviour.Properties, T> factory, BlockBehaviour.Properties props) {
